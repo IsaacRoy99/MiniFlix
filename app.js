@@ -1,12 +1,12 @@
 const movies = [
-{ id:1, title:'Fantastic Four: First Steps', genre:'Sci-Fi', poster:'assets/images/fantastic-four.jpg', src:'assets/videos/fantastic-four.mp4', description:'4 Fantastic Heroes.' },
-{ id:2, title:'Mission Impossible: The Final Reckoning', genre:'Action', poster:'assets/images/mi8.jpg', src:'assets/videos/mi8.mp4', description:'Tom Cruise risks it all.' },
-{ id:3, title:'Avengers Endgame', genre:'Sci-Fi', poster:'assets/images/endgame.jpg', src:'assets/videos/endgame.mp4', description:'Thanos makes his Last Stand.' },
-{ id:4, title:'No Time To Die', genre:'Action', poster:'assets/images/bond.jpg', src:'assets/videos/bond.mp4', description:'James Bond on another death-defying mission.' },
-{ id:5, title:'F1', genre:'Action', poster:'assets/images/f1.jpg', src:'assets/videos/f1.mp4', description:'A thrilling adventure.' },
-{ id:6, title:'Fast And Furious', genre:'Action', poster:'assets/images/fast.jpg', src:'assets/videos/fast.mp4', description:'Dom and Brian bring down a cartel.' },
-{ id:7, title:'Bad Boys', genre:'Comedy', poster:'assets/images/bad-boys.jpg', src:'assets/videos/bad-boys.mp4', description:'The Bad Boys are back and funnier.' },
-{ id:8, title:'Superman', genre:'Sci-Fi', poster:'assets/images/superman.jpg', src:'assets/videos/superman.mp4', description:'A new take on Superman.' }
+{ id:1, title:'Fantastic Four: First Steps', genre:'Sci-Fi', poster:'fantastic-four.jpg', src:'fantastic-four.mp4', description:'4 Fantastic Heroes.' },
+{ id:2, title:'Mission Impossible: The Final Reckoning', genre:'Action', poster:'mi8.jpg', src:'mi8.mp4', description:'Tom Cruise risks it all.' },
+{ id:3, title:'Avengers Endgame', genre:'Sci-Fi', poster:'endgame.jpg', src:'endgame.mp4', description:'Thanos makes his Last Stand.' },
+{ id:4, title:'No Time To Die', genre:'Action', poster:'bond.jpg', src:'bond.mp4', description:'James Bond on another death-defying mission.' },
+{ id:5, title:'F1', genre:'Action', poster:'f1.jpg', src:'f1.mp4', description:'A thrilling adventure.' },
+{ id:6, title:'Fast And Furious', genre:'Action', poster:'fast.jpg', src:'fast.mp4', description:'Dom and Brian bring down a cartel.' },
+{ id:7, title:'Bad Boys', genre:'Comedy', poster:'bad-boys.jpg', src:'bad-boys.mp4', description:'The Bad Boys are back and funnier.' },
+{ id:8, title:'Superman', genre:'Sci-Fi', poster:'superman.jpg', src:'superman.mp4', description:'A new take on Superman.' }
 ];
 
 // render grid
@@ -98,4 +98,5 @@ playerArea.innerHTML = `
 <video controls class="w-100 mt-3 rounded" src="${movie.src}"></video>
 <p class="text-muted mt-2">${movie.description}</p>
 `;
+
 }
